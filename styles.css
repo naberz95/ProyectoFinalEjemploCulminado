@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Cambiado a 'Roboto' */
+    color: #333; /* Texto más oscuro para mejorar la legibilidad */
+    font-size: 16px; /* Tamaño base */
+    background-image: url('/src/img/fondo.jpg'); /* Cambia esta ruta a la de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center;
+    background-attachment: fixed; /* Hace que la imagen se quede fija al hacer scroll */
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0d6efd; /* Cambiar el color de los encabezados a un azul más vibrante */
+    margin-bottom: 30px; /* Aumenta el espaciado inferior para mejorar la separación */
+    font-size: 2.5rem; /* Tamaño del título en relación al tamaño base */
+}
+
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+
+.btn-biografia {
+    margin-top: 20px;
+}
+
+#biografia {
+    display: none;
+}
+
+/* Margen superior para evitar que el contenido quede debajo de la navbar fija */
+body {
+    padding-top: 70px;
+}
+
+/* Estilos para el botón de biografía */
+.btn-biografia {
+    margin-top: 20px;
+}
+
+footer {
+    width: 100%; /* Asegura que el footer ocupe todo el ancho */
+    text-align: center; /* Centra el texto dentro del footer */
+    padding: 20px; /* Espaciado interno */
+    background-color: #0d6efd; /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    position: relative; /* Posición relativa para permitir que los hijos se posicionen correctamente */
+    bottom: 0; /* Asegura que el footer esté en la parte inferior si el contenido es corto */
+}
+
+/* Footer - Estilo para el párrafo */
+footer p {
+    margin: 0; /* Elimina el margen para un mejor centrado */
+    justify-content: center;
+}
+
+/* Footer - Estilo para los enlaces */
+footer a {
+    margin-top: 10px; /* Espacio entre el párrafo y el enlace */
+    display: inline-block; /* Permite añadir margen y padding */
+    color: white; /* Asegura que el texto del enlace sea blanco */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    transition: color 0.3s; /* Añade una transición suave para el color */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el ratón */
+}
+
+/* Footer - Estilo para el ícono */
+footer i {
+    margin-right: 5px; /* Espacio a la derecha del ícono */
+}
+
+.banner {
+    background-image: url('/src/img/Blog\ Tecnologia.png'); /* Ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    padding: 60px 0; /* Espacio superior e inferior */
+    text-align: center; /* Centra el texto */
+}
+
+/* Contenedor del texto con fondo semitransparente */
+.banner .text-container {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+    padding: 20px; /* Espaciado alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    display: inline-block; /* Permite centrar el contenedor del texto */
+}
+
+.banner h1 {
+    font-size: 2.5rem; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio inferior */
+    color: rgb(0, 0, 0); /* Color del título */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Sombra de texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Aumenta la sombra del texto para mejorar la legibilidad */
+}
+
+.banner p {
+    font-size: 1.2rem; /* Tamaño del párrafo */
+    color: rgb(0, 0, 0); /* Color del párrafo */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Sombra de texto */
+}
+
+
+.blog-entry {
+    margin: 20px 0; /* Espaciado entre entradas */
+    padding: 20px; /* Espaciado interno para el contenido */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border: 1px solid #dee2e6; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+}
+
+.media-container {
+    margin: 20px 0; /* Espacio alrededor de la imagen o video */
+}
+
+.modification-info {
+    font-size: 0.9rem; /* Tamaño del texto más pequeño */
+    color: rgb(0, 0, 0); /* Color del texto de modificación */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.imagenBlog{
+    max-width: 700px;
+    max-height: auto;
+    border-radius:20px;
+    justify-content: center;
+}
+.imagenHitos {
+    width: 100px;  /* Fija un ancho específico para todas las imágenes */
+    height: 100px; /* Establece una altura fija para mantener la alineación */
+    border-radius: 20px;  /* Bordes redondeados */
+    display: block;  /* Permite que el margen funcione */
+    margin: 0 auto;  /* Centra la imagen horizontalmente */
+}
+
+.textoHitos{
+    text-align: left;
+}
+
+#hitos-hardware{
+    margin: 20px 0; /* Espaciado entre entradas */
+    padding: 20px; /* Espaciado interno para el contenido */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border: 1px solid #dee2e6; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para un efecto elevado */
+}
+
+.letraCarousel{
+    margin-bottom: 10px; /* Espacio inferior */
+    color: rgb(0, 0, 0); /* Color del título */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Sombra de texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+}
+
+.letraCarousel1{
+    margin-bottom: 10px; /* Espacio inferior */
+    color: rgb(0, 0, 0); /* Color del título */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* Sombra de texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semitransparente */
+}
